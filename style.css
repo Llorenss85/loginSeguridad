@@ -1,0 +1,32 @@
+*{  
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+    
+}
+#login{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    
+}
+#login::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+
+}
+#contraseña{
+    padding: 20% 0 0 35%;
+}
