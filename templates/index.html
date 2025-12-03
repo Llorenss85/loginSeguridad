@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segurity</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+</head>
+<body>
+    <main id="login">
+        <form autocomplete="off" method="POST" action="http://localhost:5000/loginv1" id="contraseña">
+                <label for="inputPasword" class="contraseña" id="contraseñaLabel"> Contraseña</label>
+                <label for="inputPasword" class="labelPasword" id="labelPasword">
+                   
+                    <input type="password" name="password" placeholder="Escribe Una contraseña" id="inputPasword" class="contraseña">
+                    <img src="/static/img/password-svgrepo-com.svg"   id="img-Pasword"></img >
+                    <div id="label-verification"></div>
+                </label>
+                            
+                <button  type="submit"  name="password" id="submit-contraseña"class="contraseña">
+                <span>Enviar</span>
+            </button>
+        </form>
+    </main> 
+</body>
+</html>
