@@ -114,6 +114,9 @@ button{
     margin-top: 5%;
     width: 50%;
 }
+.oculto{
+    display: none;
+}
 button>span{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
